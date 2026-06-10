@@ -1,5 +1,4 @@
 (function() {
-    // Configuration: Both set to "hi"
     const FAKE_USERNAME = "hi";
     const FAKE_DISPLAY_NAME = "hi";
 
@@ -36,9 +35,9 @@
                         };
                     }
                 }
-                console.log("[KettuTweak] Identity forced to 'hi' successfully!");
+                console.log("[KettuTweak] Identity swap forced to 'hi'!");
             } catch (e) {
-                console.error("[KettuTweak] Injection error: ", e);
+                console.error("[KettuTweak] Error: ", e);
             }
         }
     }, 100);
