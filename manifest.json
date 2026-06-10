@@ -1,0 +1,7 @@
+{
+    "name": "Client-Side Identity",
+    "description": "Changes username and display name to hi",
+    "author": "suratron",
+    "main": "kettu.js",
+    "version": "1.0.0"
+}
